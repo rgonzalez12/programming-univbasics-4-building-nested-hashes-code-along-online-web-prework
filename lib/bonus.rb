@@ -21,9 +21,14 @@ def bonus
   }
 
   #code your solution here:
-
   
+
+epic_tragedy[:hero_friends][:status] = "dead"
+epic_tragedy[:heroine_friends][:status] = "dead"
+
+ 
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
+
